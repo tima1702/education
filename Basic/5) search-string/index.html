@@ -1,0 +1,35 @@
+<html lang="html">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic/search-string</title>
+    <link rel="stylesheet" type="text/css" href="../../index.css">
+</head>
+<body>
+<div class="task-container">
+    <h1>Basic/search-string</h1>
+    <h2>Задача:</h2>
+    <p> Написать функцию которая преобразует объект в строку (query string, search string)
+        <br/>
+        Поля значения которых: null, undefined, ''</p>
+    <h2>Пример</h2>
+    <p>searchString({}) === ''
+        <br/>
+        searchString({ test: 'test' }) === '?test=test'
+        <br/>
+        searchString({ a: 123, b: 'qwe', c: false, d: 0 }) === '?a=123&b=qwe&c=false&d=0'
+        <br/>
+        searchString({ a: 123, b: 'qwe', c: null, d: undefined }) === '?a=123&b=qwe'
+        <br/>
+        searchString({ a: 123, b: 'qwe', d: '' }) === '?a=123&b=qwe'</p>
+    <h2>Замечание:</h2>
+    <p>Не будет вложеных объектов и массивов и будет аргумент обязательно будет объектом
+        <br/>
+        Прочитать про
+        <a href="" target="_blank">
+            параметры GET запроса
+        </a>
+    </p>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>

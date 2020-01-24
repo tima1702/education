@@ -1,4 +1,4 @@
-import findPair from './';
+import findPair from './index';
 
 describe('find-pair', () => {
   test('should be function', () => {

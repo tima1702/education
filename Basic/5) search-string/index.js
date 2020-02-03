@@ -1,4 +1,7 @@
-export default function searchString(obj) {
+function searchString(obj) {
   // код сюда
 }
 
+window.searchString = searchString;
+
+export default searchString;

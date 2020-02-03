@@ -1,9 +1,7 @@
-/*
-  Задача
-  Написать функцию в которую передаются два аргументы, возвращяется Promise, который будет resolve с суммой этих чисел через 1 секунду (примерно)
-  Если один из играументов не являетс числом Promise должен не выполнен с ошибкой(reject)
- */
-
-export default function asyncSum(a, b) {
+function asyncSum(a, b) {
   // код сюда
 }
+
+window.asyncSum = asyncSum;
+
+export default asyncSum;

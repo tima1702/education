@@ -17,6 +17,10 @@
   stack.push(10).push(14).pop().print() // "[2, 10]"
  */
 
-export default class Stack {
+class Stack {
   // код сюда
 }
+
+window.Stack = Stack;
+
+export default Stack;

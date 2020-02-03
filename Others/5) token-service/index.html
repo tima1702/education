@@ -1,0 +1,40 @@
+<html lang="html">
+<head>
+    <meta charset="UTF-8">
+    <title>Others/token-service</title>
+    <link rel="stylesheet" type="text/css" href="../../index.css">
+</head>
+<body>
+<div class="task-container">
+    <h1>Others/token-service</h1>
+    <h2>Задача:</h2>
+    <p>
+        Задача
+        Написать TokenService, в котором есть слудеющие функции
+        subscribe(callback) - добавляет подписку на изменение токена (параметром будет новый токен, или null, если токен удален)
+        setToken(token) - устанавливает значения токена (вызывает подписчиков)
+        removeToken() - удаляет токен (вызвает подписчиков на изменеия)
+        getToken() - возващяет токен
+    </p>
+    <h2>
+        Примеры
+    </h2>
+    <p>
+        const stack = new Stack();
+        <br>
+        stack.push(1);
+        <br>
+        stack.print() // [1]
+        <br>
+        stack.pop().isEmpty(); // true
+        <br>
+        stack.pop(); // error
+        <br>
+        stack.push(2).push(3).pop()
+        <br>
+        stack.push(10).push(14).pop().print() // "[2, 10]"
+    </p>
+</div>
+<script type="module" src="./index.js"></script>
+</body>
+</html>

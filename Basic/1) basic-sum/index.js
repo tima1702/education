@@ -1,3 +1,7 @@
-export default function sum(a, b) {
+function sum(a, b) {
   //код сюда
 };
+
+window.sum = sum;
+
+export default sum;

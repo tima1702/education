@@ -7,6 +7,10 @@
   getToken() - возващяет токен
  */
 
-export default class TokenService {
+class TokenService {
   // код сюда
 }
+
+window.TokenService = TokenService;
+
+export default TokenService;

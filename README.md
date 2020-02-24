@@ -1,4 +1,4 @@
-# Обучение для Exceed team 
+# Основы Javascript для Exceed team 
 
 ##Описание
 
@@ -8,7 +8,6 @@
 * Basic
 * Data Types
 * Array
-* HTML
 * Async
 * Others
 
@@ -37,5 +36,7 @@ npm test basic-sum
 
 ```
 
-
+##Примечание
+Всю необходимаю теорию для выполнения можно найти [тут](https://learn.javascript.ru/)
+ 
 

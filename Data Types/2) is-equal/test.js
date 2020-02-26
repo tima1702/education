@@ -30,7 +30,7 @@ describe('is-equal', () => {
       expect(isEqual({ a: undefined }, { b: undefined })).toBe(false);
     });
     test('isEqual({ a: undefined }, {}) === false', () => {
-      expect(isEqual({ a: undefined }, { b: undefined })).toBe(false);
+      expect(isEqual({ a: undefined }, {})).toBe(false);
     });
     test('isEqual({ b: 1 }, { a: 1, b: 1 }) === false', () => {
       expect(isEqual({ b: 1 }, { a: 1, b: 1 })).toBe(false);

@@ -12,6 +12,10 @@
   isValidEmail("e2xa.mple8@gmail.com") === true
  */
 
-export default function isValidEmail(email) {
+function isValidEmail(email) {
   // код сюда
 }
+
+window.isValidEmail = isValidEmail;
+
+export default isValidEmail;

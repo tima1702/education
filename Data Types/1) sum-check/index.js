@@ -1,3 +1,7 @@
-export default function sumCheck(a, b) {
+function sumCheck(a, b) {
   // код сюда
 }
+
+window.sumCheck = sumCheck;
+
+export default sumCheck;

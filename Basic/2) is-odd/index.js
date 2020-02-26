@@ -1,3 +1,7 @@
-export default function isOdd(a) {
+function isOdd(a) {
   //код сюда
 }
+
+window.isOdd = isOdd;
+
+export default isOdd;

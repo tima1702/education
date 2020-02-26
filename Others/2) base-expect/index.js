@@ -12,4 +12,6 @@ function baseExpect(a) {
   // код сюда
 }
 
+window.baseExpect = baseExpect;
+
 export default baseExpect;

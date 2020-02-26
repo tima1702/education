@@ -1,3 +1,7 @@
-export default function queryToObject(query) {
+function queryToObject(query) {
   // код сюда
 };
+
+window.queryToObject = queryToObject;
+
+export default queryToObject;

@@ -1,4 +1,7 @@
-export default function findPair(arr) {
+function findPair(arr) {
   // код сюда
 };
 
+window.findPair = findPair;
+
+export default findPair;

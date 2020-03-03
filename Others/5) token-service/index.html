@@ -20,19 +20,18 @@
         Примеры
     </h2>
     <p>
-        const stack = new Stack();
+        const testService = new TokenService();
         <br>
-        stack.push(1);
+        testService.subscribe((data) => {
+            const message = data ? 'subscriber: ' + data : 'token was removed';
+            console.log(message);
+        });
         <br>
-        stack.print() // [1]
+        testService.setToken('newToken'); // log: "subscriber: newToken"
         <br>
-        stack.pop().isEmpty(); // true
+        testService.getToken(); // "newToken"
         <br>
-        stack.pop(); // error
-        <br>
-        stack.push(2).push(3).pop()
-        <br>
-        stack.push(10).push(14).pop().print() // "[2, 10]"
+        testService.removeToken();  // log: "token was removed" null
     </p>
 </div>
 <script type="module" src="./index.js"></script>

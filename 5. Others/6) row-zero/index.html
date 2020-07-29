@@ -1,0 +1,40 @@
+<html lang="html">
+<head>
+    <meta charset="UTF-8">
+    <title>Others/row-zero</title>
+    <link rel="stylesheet" type="text/css" href="../../index.css">
+</head>
+<body>
+<div class="task-container">
+    <h1>Others/row-zero</h1>
+    <h2>Задача:</h2>
+    <p>
+        Написать функцию, которая получает на вход строку состояющую из нулей и едениц, и необходимо
+        найти максимальную длину подряд идущих нулей.
+    </p>
+    <h2>
+        Примеры
+    </h2>
+    <p>
+        rowZero("0001100") === 3
+        rowZero("000110000") === 4
+        rowZero("11111") === 0
+        rowZero("") === 0
+        rowZero("01") === 1
+        rowZero("00") === 2
+        <br>
+        testService.subscribe((data) => {
+            const message = data ? 'subscriber: ' + data : 'token was removed';
+            console.log(message);
+        });
+        <br>
+        testService.setToken('newToken'); // log: "subscriber: newToken"
+        <br>
+        testService.getToken(); // "newToken"
+        <br>
+        testService.removeToken();  // log: "token was removed" null
+    </p>
+</div>
+<script type="module" src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html lang="html">
+<head>
+    <meta charset="UTF-8">
+    <title>Array/query-object</title>
+    <link rel="stylesheet" type="text/css" href="../../index.css">
+</head>
+<body>
+<div class="task-container">
+    <h1>Array/query-object</h1>
+    <h2>Задача:</h2>
+    <p>Написать функцию которая будет преоброзывавать queryString в объект</p>
+    <p>Для преобразования типов нужно использовать функцию stringToType из 'Basic/6) string-to-type'</p>
+    <h2>Пример:</h2>
+    <p> queryToObject('') => {}
+        <br/>
+        queryToObject('?') => {}
+        <br/>
+        queryToObject('?test=123') => { test: 123 }
+        <br/>
+        queryToObject('?a=test&test=a') => { a: 'test', test: 'a' }
+        <br/>
+        queryToObject('?a=true&b=false&c=123&d=0') => { a: true, b: false, c: 123, d: 0 }</p>
+    <h2>Замечание:</h2>
+    <p>Данные будут простые (без объектов и массивов)</p>
+</div>
+<script type="module" src="./index.js"></script>
+</body>
+</html>

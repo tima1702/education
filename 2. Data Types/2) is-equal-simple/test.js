@@ -11,11 +11,11 @@ describe('is-equal', () => {
     test('isEqual({a: 1}, {a: 1}) === true', () => {
       expect(isEqual({ a: 1 }, { a: 1 })).toBe(true);
     });
-    test('isEqual({ a: { b: 1 }}, { a: { b: 1 }}) === true', () => {
-      expect(isEqual({ a: { b: 1 } }, { a: { b: 1 } })).toBe(true);
+    test('isEqual({ a: undefined, b: null }, { a: undefined, b: null }) === true', () => {
+      expect(isEqual({ a: undefined, b: null }, { a: undefined, b: null })).toBe(true);
     });
-    test('isEqual({ a: { b: 1 }}, { a: { b: null }}) === false', () => {
-      expect(isEqual({ a: { b: 1 } }, { a: { b: null } })).toBe(false);
+    test('isEqual({ a: "test", b: null }, { a: "test", b: undefined }) === false', () => {
+      expect(isEqual({ a: "test", b: null }, { a: "test", b: undefined })).toBe(false);
     });
     test('isEqual({ a: null }, { a: null }) === true', () => {
       expect(isEqual({ a: null }, { a: null })).toBe(true);

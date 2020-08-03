@@ -1,23 +1,25 @@
 <html lang="html">
 <head>
     <meta charset="UTF-8">
-    <title>Data Types/is-equal</title>
+    <title>Data Types/is-equal-simple</title>
     <link rel="stylesheet" type="text/css" href="../../index.css">
 </head>
 <body>
 <div class="task-container">
-    <h1>Data Types/is-equal</h1>
+    <h1>Data Types/is-equal-simple</h1>
     <h2>Задача:</h2>
     <p>Написать функцию, которая будет сравнить объекты</p>
     <h2>Пример</h2>
     <p>
         isEqual({}, {}) === true
         <br/>
-        isEqual({a: 1}, {a: { a: 1 }}) === false
+        isEqual({ a: 'test' }, { a: 'test' }) === true
         <br/>
-        isEqual({ a: { b: 1 }}, { a: { b: 1 }}) === true
+        isEqual({ a: 'test' }, { b: 'test' }) === false
         <br/>
-        isEqual({ a: { b: 1 }}, { a: { b: null }}) === false
+        isEqual({ a: 'test', b: null }, { a: 'test', b: 'null' }) === true
+        <br/>
+        isEqual({ a: 'test' }, { a: 'test1' }) === false
         <br/>
         isEqual({ a: null }, { a: null }) === true
         <br/>
@@ -25,6 +27,8 @@
         <br/>
         isEqual({ a: undefined }, { a: undefined }) === true
     </p>
+    <h2>Замечание:</h2>
+    <p>Значение объекта не может быть объектом</p>
 </div>
 <script type="module" src="./index.js"></script>
 </body>

@@ -1,0 +1,17 @@
+## Что прочитать перед выполнением
+
+- [Переменные](https://learn.javascript.ru/variables)
+- [Типы данных](https://learn.javascript.ru/types)
+- [Преобразование типов](https://learn.javascript.ru/type-conversions)
+- [Базовые операторы, математика](https://learn.javascript.ru/operators)
+- [Операторы сравнения](https://learn.javascript.ru/comparison)
+- [Условное ветвление: if, '?'](https://learn.javascript.ru/ifelse)
+- [Логические операторы](https://learn.javascript.ru/logical-operators)
+- [Циклы while и for](https://learn.javascript.ru/while-for)
+- [Конструкция "switch"](https://learn.javascript.ru/switch)
+- [Функции](https://learn.javascript.ru/function-basics)
+- [Function Expression](https://learn.javascript.ru/function-expressions)
+- [Функции-стрелки, основы](https://learn.javascript.ru/arrow-functions-basics)
+- [Особенности JavaScript](https://learn.javascript.ru/javascript-specials)
+- [Query String](https://en.wikipedia.org/wiki/Query_string)
+- [Объекты](https://learn.javascript.ru/object)

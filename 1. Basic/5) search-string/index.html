@@ -8,9 +8,9 @@
 <div class="task-container">
     <h1>Basic/search-string</h1>
     <h2>Задача:</h2>
-    <p> Написать функцию которая преобразует объект в строку (query string, search string)
+    <p> Написать функцию, которая преобразует объект в строку (query string, search string)
         <br/>
-        Поля значения которых: null, undefined, ''</p>
+        Поля, значения которых: null, undefined, '' - следует пропустить</p>
     <h2>Пример</h2>
     <p>searchString({}) === ''
         <br/>
@@ -22,10 +22,10 @@
         <br/>
         searchString({ a: 123, b: 'qwe', d: '' }) === '?a=123&b=qwe'</p>
     <h2>Замечание:</h2>
-    <p>Не будет вложеных объектов и массивов и будет аргумент обязательно будет объектом
+    <p>Аргумент обязательно будет объектом, не содержащим вложеных объектов и массивов
         <br/>
         Прочитать про
-        <a href="" target="_blank">
+        <a href="https://serpstat.com/ru/blog/skolko-get-parametrov-mozhet-nahoditsja-v-url-stranicy/#1" target="_blank">
             параметры GET запроса
         </a>
     </p>
